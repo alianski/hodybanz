@@ -1,8 +1,15 @@
-#player{
+.character{
     width: 50px;
     height: 100px;
-    background-color: red;
     position: absolute;
-    top: calc(50%);
-    left: calc(50%);
+}
+#player{
+    background-color: blue;
+}
+#enemy{
+    background-color: red;
+}
+html, body {
+    overflow: hidden; /* Hides both vertical and horizontal scrolling */
+    height: 100%; /* Ensures full height for the body */
 }
