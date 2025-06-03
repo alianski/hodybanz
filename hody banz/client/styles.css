@@ -1,0 +1,18 @@
+.character{
+    width: 50px;
+    height: 100px;
+    position: absolute;
+    font-size: 15px;
+}
+#player{
+    background-color: blue;
+    z-index: 2;
+}
+#enemy{
+    background-color: red;
+    z-index: 1;
+}
+html, body {
+    overflow: hidden;
+    height: 100%;
+}
